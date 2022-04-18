@@ -1,0 +1,27 @@
+.custom_li {
+  cursor: pointer;
+  margin-bottom: 3px;
+}
+dl {
+  width: 100%;
+  overflow: hidden;
+  background: rgb(117, 117, 98);
+  padding: 0;
+  margin: 0
+}
+dt {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  background: rgb(250, 250, 242);
+  padding: 0;
+  margin: 0
+}
+dd {
+  float: left;
+  width: 50%;
+  /* adjust the width; make sure the total of both is 100% */
+  background: rgb(187, 196, 189);
+  padding: 0;
+  margin: 0
+}

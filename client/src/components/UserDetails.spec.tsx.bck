@@ -1,0 +1,56 @@
+// import react from 'react';
+// import {render, cleanup, waitFor}
+// from '@testing-library/react';
+// import "@testing-library/jest-dom";
+// import mockAxios from "jest-mock-axios";
+// import UserDetails from './UserDetails';
+// import React from 'react';
+// import { BASE_URL } from './User';
+// import { Router } from 'react-router-dom';
+// import { act } from 'react-dom/test-utils';
+// import axios from 'axios';
+// import { mount, shallow } from 'enzyme';
+
+// afterEach(() => {
+//     mockAxios.reset();
+// });
+
+// it("fetches users", async () => {
+//     const users = 
+//         { id: 1, login: "mojombo", avatar_url:"test" }
+    
+//     mockAxios.get.mockResolvedValueOnce(users);
+//   jest.mock('react-router', () => ({
+//     useParams: jest.fn().mockReturnValue({ username: 'mojombo' }),
+//   }));
+     
+//     const {getByTestId} = await render(<UserDetails/>);
+// console.log(getByTestId)
+//     const resolvedSpan = await waitFor(()=> getByTestId("resolved"));
+//     expect(resolvedSpan).toHaveTextContent("mojombo");
+// })
+
+// const whenStable = async () => {
+//     await act(async () =>{
+//         await new Promise((resolve) =>setTimeout(resolve, 0));
+//     });
+// }
+// describe("test", () => {
+//     it("should pass", async ()=>{
+//           jest.mock('react-router', () => ({
+//         useParams: jest.fn().mockReturnValue({ username: 'mojombo' }),
+//     }));
+
+//         const axiosGetSpy = jest.spyOn(axios, 'get').mockResolvedValueOnce({
+//             data:{
+//                 login:"mojombo"
+//             }
+//         });
+//         const wrapper = shallow(<UserDetails/>);
+//         await whenStable();
+
+//         expect(wrapper.find("span").text()).toEqual('mojombo');
+//         expect(axiosGetSpy).toBeCalledWith('http://localhost:5000/github/users/mojombo');
+//         axiosGetSpy.mockRestore();
+//     })
+// })

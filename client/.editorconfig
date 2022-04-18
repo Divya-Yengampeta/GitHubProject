@@ -1,0 +1,12 @@
+root = true
+end_of_line = crlf
+
+[{src}/**.{ts,tsx,json,js}]
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = false
+indent_style = tab
+indent_size = 4
+
+[{src}/**.{ts,tsx}]
+indent_brace_style = Allman

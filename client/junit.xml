@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" errors="0" time="9.315">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-04-17T13:15:16" time="4.754" tests="1">
+    <testcase classname=" renders without crashing" name=" renders without crashing" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="User" errors="0" failures="0" skipped="0" timestamp="2022-04-17T13:15:16" time="4.856" tests="2">
+    <testcase classname="User should render successfully" name="User should render successfully" time="0.042">
+    </testcase>
+    <testcase classname="User Card-body" name="User Card-body" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>
